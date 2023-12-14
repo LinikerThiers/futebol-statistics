@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  	#eeecec;
+}
+
+.content {
+    height: auto;
+    width: 100vw;
+    padding: 1rem;
+    background-color:  	#eeecec;
+}
+.nome{
+    text-decoration: none;
+}
+
+.ligas {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liga {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.liga:hover{
+    transform: scale(1.03);
+    background-color: #f8f8f8;
+}
+
+.liga .nome {
+    color: #000;
+    margin-bottom: .25rem;
+    text-transform: capitalize; 
+    font-weight: bold
+}
+
+.liga img {
+    max-width: 100%;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.liga-link {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+    transition: transform 0.3s;
+    align-items: center;
+}
+
+.liga-link:hover {
+    transform: scale(1.03);
+}
+
+.liga-link .nome {
+    flex-grow: 1; 
+}
+
+.liga-link .imagem {
+    margin-left: 1rem; 
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 380px) {
+    .content {
+        height: auto;
+    }
+
+    .ligas {
+        grid-template-columns: 1fr;
+    }
+
+    .liga img {
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .ligas {
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .liga img {
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color:  	#c4c3c3;
+    }
+
+    .content {
+        max-width: 992px;
+        min-height: 90vh;
+        margin: 6rem auto;
+        border-radius: 1rem;
+        padding: 3rem;
+    }
+    
+    .ligas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .liga img {
+        height: 75px;
+    }
+}
