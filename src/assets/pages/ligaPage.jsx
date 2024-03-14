@@ -59,7 +59,7 @@ const LigaPage = () => {
 
     return (
         <div>
-            <Link to="/" className='font-awesome'>
+            <Link to="/futebol-statistics" className='font-awesome'>
                 <FontAwesomeIcon icon={faArrowLeft} />
             </Link>
 
