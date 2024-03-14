@@ -9,6 +9,9 @@ import axios from 'axios';
 import Skeleton from 'react-loading-skeleton';
 import './ligaPage.css';
 
+const apiKey = import.meta.env.VITE_API_KEY;
+const apiHost = import.meta.env.VITE_API_HOST;
+
 const LigaPage = () => {
     const { id } = useParams();
     const [anoSelecionado, setAnoSelecionado] = useState('2023');
@@ -27,8 +30,8 @@ const LigaPage = () => {
                         league: id,
                     },
                     headers: {
-                        'X-RapidAPI-Key': '',
-                        'X-RapidAPI-Host': '',
+                        'X-RapidAPI-Key': apiKey,
+                        'X-RapidAPI-Host': apiHost,
                     },
                 });
 
