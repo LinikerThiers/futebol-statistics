@@ -9,7 +9,7 @@ const Cabecalho = () => {
                 <h1>Futebol Statistics</h1>
             </Link>
             <Link to="/futebol-statistics">
-                <img src="./src/assets/img/logo-branco.png" alt="Logo" />
+                <img src="https://images.vexels.com/media/users/3/141231/isolated/preview/c59b6035d104844f7006c5d74f200be6-jogador-de-futebol-acertando-1.png" alt="Logo" />
             </Link>
         </div>
     );
