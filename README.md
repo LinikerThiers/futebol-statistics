@@ -5,15 +5,16 @@
 Projeto Front-end feito em ReactJs e Vite, consumindo uma API de futebool da RapidApi.
 Projeto tem como função mostrar a tabela dos principais campeonatos de futebol do mundo, com a possibilidade de verificar as tabelas das temporadas passadas.
 
+
 ## Página inicial do projeto
-<p align='center'>
-    <img scr='./doc/foto-tela-inicial.png' alt='Tela inicial'>
-</p>
+<div align="center">
+<img src="https://github.com/LinikerThiers/futebol-statistics/assets/89757097/9ef0c92b-497a-481a-95bf-8f0edbeefeef" width="200px"/>
+</div>
 
 ## Página da classificação
-<p align='center'>
-    <img scr='./doc/tela-liga.png' alt='Tela Classificação'>
-</p>
+<div align="center">
+<img src="https://github.com/LinikerThiers/futebol-statistics/assets/89757097/8729b39c-7e12-431f-b598-44dd55bed4d0" width="700px"/>
+</div>
 
 # Tecnologias utilizadas
 * ReactJs
