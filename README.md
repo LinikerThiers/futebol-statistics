@@ -25,8 +25,9 @@ Projeto tem como função mostrar a tabela dos principais campeonatos de futebol
 Para iniciar o projeto é necessário:
 - Clonar o repositório na máquina
 - Abrir a pasta no VsCode
+- Ter o NodeJs instalado na máquina
 - No lugar da constante `const apiKey` e `const apiHost` do arquivo ligaPage.jsx colocar a sua ApiKey adquirindo no site da RapidApi
-- Digitar no terminal npm run dev que o projeto rodará
+- Digitar no terminal o comando `npm run dev` que o projeto rodará
 
 # Autor
 
