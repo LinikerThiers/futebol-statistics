@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Projeto Front-end feito em ReactJs e Vite, consumindo uma API de futebool da RapidApi.
+Projeto Front-end feito em ReactJs e Vite, consumindo uma API de futebol da RapidApi.
 Projeto tem como função mostrar a tabela dos principais campeonatos de futebol do mundo, com a possibilidade de verificar as tabelas das temporadas passadas.
 
 
