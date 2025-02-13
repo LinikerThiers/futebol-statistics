@@ -14,7 +14,7 @@ const apiHost = import.meta.env.VITE_API_HOST;
 
 const LigaPage = () => {
     const { id } = useParams();
-    const [anoSelecionado, setAnoSelecionado] = useState('2023');
+    const [anoSelecionado, setAnoSelecionado] = useState('2025');
     const [infosSeason, setInfosSeason] = useState([]);
     const [infoLiga, setInfoLiga] = useState({});
     const [loading, setLoading] = useState(true);
